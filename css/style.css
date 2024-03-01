@@ -1,8 +1,7 @@
 body {
     font-family: "Roboto", sans-serif;
-    color: #434445;
+    color: #434455;
     background-color: #ffffff;
-
 }
 
 ul,
@@ -92,7 +91,7 @@ span {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
-    background: #404BBF;
+    background-color: #4D5AE5;
 }
 
 .solutions-btn:hover,
