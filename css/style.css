@@ -1,6 +1,6 @@
 body {
-    font-family: 'Robot', sans-serif;
-    color: black;
+    font-family: "Roboto", sans-serif;
+    color: #434445;
     background-color: #ffffff;
 
 }
@@ -21,13 +21,14 @@ button {
 .navigation {}
 
 .navigation-logo {
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #4d5ae5;
 }
 
 .navigation-logo:hover,
@@ -36,7 +37,7 @@ button {
 }
 
 span {
-    color: #4d5ae5;
+    color: #2e2f42;
 }
 
 .navigation-link {
@@ -49,11 +50,13 @@ span {
 
 .navigation-link:hover,
 .navigation-link:focus {
-    color: #4d5ae5;
+    color: #404bbf;
     text-decoration: underline;
 }
 
-.address {}
+.address {
+    font-style: normal;
+}
 
 .address-link {
     font-style: normal;
@@ -66,7 +69,7 @@ span {
 
 .address-link:hover,
 .address-link:focus {
-    color: #4d5ae5;
+    color: #404bbf;
     text-decoration: underline;
 }
 
@@ -84,12 +87,17 @@ span {
 }
 
 .solutions-btn {
-    border-radius: 4px;
-    padding: 16px 32px;
-    width: 169px;
-    height: 56px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background: #4d5ae5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    background: #404BBF;
+}
+
+.solutions-btn:hover,
+.solutions-btn:focus {
+    background-color: #404BBF;
 }
 
 .advantages {}
@@ -119,19 +127,18 @@ span {
 .team-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
 }
 
-.team-items {}
-
-.team-img {
-    width: 264px;
-    height: 260px;
+.team-items {
+    background-color: #FFFFFF
 }
+
+.team-img {}
 
 .team-name {
     font-weight: 500;
@@ -165,10 +172,7 @@ span {
 
 .partfolio-items {}
 
-.partfolio-img {
-    width: 360px;
-    height: 300px;
-}
+.partfolio-img {}
 
 .partfolio-name {
     font-weight: 500;
@@ -186,6 +190,8 @@ span {
     color: #434455;
 }
 
+/* footer */
+
 .footer {
     background-color: #2e2f42;
 }
@@ -194,9 +200,13 @@ span {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.footer-span {
     color: #f4f4fd;
 }
 
