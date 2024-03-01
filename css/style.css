@@ -30,6 +30,12 @@ button {
     color: #2e2f42;
 }
 
+.navigation-logo:hover,
+.navigation-logo:focus {
+    text-decoration: underline;
+}
+}
+
 span {
     color: #4d5ae5;
 }
@@ -42,6 +48,12 @@ span {
     color: #2e2f42;
 }
 
+.navigation-link:hover,
+.navigation-link:focus {
+    color: #4d5ae5;
+    text-decoration: underline;
+}
+
 .address {}
 
 .address-link {
@@ -51,6 +63,12 @@ span {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.address-link:hover,
+.address-link:focus {
+    color: #4d5ae5;
+    text-decoration: underline;
 }
 
 .solutions {
@@ -181,6 +199,11 @@ span {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
+}
+
+.footer-logo:hover,
+.footer-logo:focus {
+    text-decoration: underline;
 }
 
 .footer-text {
